@@ -6,7 +6,7 @@ CREATE TABLE users (
     `uuid` varchar(40) NOT NULL,    
     `name` varchar(255) NOT NULL,
     `userName` varchar(255) NOT NULL,
-    `zipCode` INT(8),
+    `zipCode` varchar(8) NOT NULL,
     `email` varchar(255) NOT NULL,
     `password` varchar(255) NOT NULL
 );
