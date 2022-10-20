@@ -5,7 +5,6 @@ class Database
 
 	function connect()
 	{
-
 		$host = 'db';
 		$dbname = 'superlogica';
 		$user = 'root';
@@ -24,7 +23,11 @@ class Database
 		}
 	}
 
-	public function execute($query, $params = [])
+	/**
+	 * @param string $query string que vem do Users para executar a query.
+	 * @param array $params array com as chaves que serão inseridas no BD.
+	 */
+	public function execute(string $query,array $params = [])
 	{
 		try {
 			$stmt = $this->connect()->prepare($query);
