@@ -1,5 +1,6 @@
-# superLogica
+# Superlógica
 
+Exercício 1
 Teste para super lógica de um validação de form
 - Para executar fazer o clone do repositório.
 - Ter o docker instalado na máquina.
